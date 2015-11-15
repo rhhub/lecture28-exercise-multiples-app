@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFD208AB1BF94E82000DE448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208AA1BF94E82000DE448 /* AppDelegate.swift */; };
+		AFD208AD1BF94E82000DE448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208AC1BF94E82000DE448 /* ViewController.swift */; };
+		AFD208B01BF94E82000DE448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD208AE1BF94E82000DE448 /* Main.storyboard */; };
+		AFD208B21BF94E82000DE448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD208B11BF94E82000DE448 /* Assets.xcassets */; };
+		AFD208B51BF94E82000DE448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD208B31BF94E82000DE448 /* LaunchScreen.storyboard */; };
+		AFD208C01BF94E82000DE448 /* lecture28_exercise_multiples_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208BF1BF94E82000DE448 /* lecture28_exercise_multiples_appTests.swift */; };
+		AFD208CB1BF94E83000DE448 /* lecture28_exercise_multiples_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208CA1BF94E83000DE448 /* lecture28_exercise_multiples_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD208BC1BF94E82000DE448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD2089F1BF94E82000DE448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD208A61BF94E82000DE448;
+			remoteInfo = "lecture28-exercise-multiples-app";
+		};
+		AFD208C71BF94E82000DE448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD2089F1BF94E82000DE448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD208A61BF94E82000DE448;
+			remoteInfo = "lecture28-exercise-multiples-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFD208A71BF94E82000DE448 /* lecture28-exercise-multiples-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lecture28-exercise-multiples-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD208AA1BF94E82000DE448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFD208AC1BF94E82000DE448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFD208AF1BF94E82000DE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFD208B11BF94E82000DE448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD208B41BF94E82000DE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD208B61BF94E82000DE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD208BB1BF94E82000DE448 /* lecture28-exercise-multiples-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lecture28-exercise-multiples-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD208BF1BF94E82000DE448 /* lecture28_exercise_multiples_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture28_exercise_multiples_appTests.swift; sourceTree = "<group>"; };
+		AFD208C11BF94E82000DE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD208C61BF94E82000DE448 /* lecture28-exercise-multiples-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lecture28-exercise-multiples-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD208CA1BF94E83000DE448 /* lecture28_exercise_multiples_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture28_exercise_multiples_appUITests.swift; sourceTree = "<group>"; };
+		AFD208CC1BF94E83000DE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD208A41BF94E82000DE448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208B81BF94E82000DE448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208C31BF94E82000DE448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD2089E1BF94E82000DE448 = {
+			isa = PBXGroup;
+			children = (
+				AFD208A91BF94E82000DE448 /* lecture28-exercise-multiples-app */,
+				AFD208BE1BF94E82000DE448 /* lecture28-exercise-multiples-appTests */,
+				AFD208C91BF94E83000DE448 /* lecture28-exercise-multiples-appUITests */,
+				AFD208A81BF94E82000DE448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD208A81BF94E82000DE448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD208A71BF94E82000DE448 /* lecture28-exercise-multiples-app.app */,
+				AFD208BB1BF94E82000DE448 /* lecture28-exercise-multiples-appTests.xctest */,
+				AFD208C61BF94E82000DE448 /* lecture28-exercise-multiples-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD208A91BF94E82000DE448 /* lecture28-exercise-multiples-app */ = {
+			isa = PBXGroup;
+			children = (
+				AFD208AA1BF94E82000DE448 /* AppDelegate.swift */,
+				AFD208AC1BF94E82000DE448 /* ViewController.swift */,
+				AFD208AE1BF94E82000DE448 /* Main.storyboard */,
+				AFD208B11BF94E82000DE448 /* Assets.xcassets */,
+				AFD208B31BF94E82000DE448 /* LaunchScreen.storyboard */,
+				AFD208B61BF94E82000DE448 /* Info.plist */,
+			);
+			path = "lecture28-exercise-multiples-app";
+			sourceTree = "<group>";
+		};
+		AFD208BE1BF94E82000DE448 /* lecture28-exercise-multiples-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD208BF1BF94E82000DE448 /* lecture28_exercise_multiples_appTests.swift */,
+				AFD208C11BF94E82000DE448 /* Info.plist */,
+			);
+			path = "lecture28-exercise-multiples-appTests";
+			sourceTree = "<group>";
+		};
+		AFD208C91BF94E83000DE448 /* lecture28-exercise-multiples-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD208CA1BF94E83000DE448 /* lecture28_exercise_multiples_appUITests.swift */,
+				AFD208CC1BF94E83000DE448 /* Info.plist */,
+			);
+			path = "lecture28-exercise-multiples-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD208A61BF94E82000DE448 /* lecture28-exercise-multiples-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD208CF1BF94E83000DE448 /* Build configuration list for PBXNativeTarget "lecture28-exercise-multiples-app" */;
+			buildPhases = (
+				AFD208A31BF94E82000DE448 /* Sources */,
+				AFD208A41BF94E82000DE448 /* Frameworks */,
+				AFD208A51BF94E82000DE448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lecture28-exercise-multiples-app";
+			productName = "lecture28-exercise-multiples-app";
+			productReference = AFD208A71BF94E82000DE448 /* lecture28-exercise-multiples-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD208BA1BF94E82000DE448 /* lecture28-exercise-multiples-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD208D21BF94E83000DE448 /* Build configuration list for PBXNativeTarget "lecture28-exercise-multiples-appTests" */;
+			buildPhases = (
+				AFD208B71BF94E82000DE448 /* Sources */,
+				AFD208B81BF94E82000DE448 /* Frameworks */,
+				AFD208B91BF94E82000DE448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD208BD1BF94E82000DE448 /* PBXTargetDependency */,
+			);
+			name = "lecture28-exercise-multiples-appTests";
+			productName = "lecture28-exercise-multiples-appTests";
+			productReference = AFD208BB1BF94E82000DE448 /* lecture28-exercise-multiples-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFD208C51BF94E82000DE448 /* lecture28-exercise-multiples-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD208D51BF94E83000DE448 /* Build configuration list for PBXNativeTarget "lecture28-exercise-multiples-appUITests" */;
+			buildPhases = (
+				AFD208C21BF94E82000DE448 /* Sources */,
+				AFD208C31BF94E82000DE448 /* Frameworks */,
+				AFD208C41BF94E82000DE448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD208C81BF94E82000DE448 /* PBXTargetDependency */,
+			);
+			name = "lecture28-exercise-multiples-appUITests";
+			productName = "lecture28-exercise-multiples-appUITests";
+			productReference = AFD208C61BF94E82000DE448 /* lecture28-exercise-multiples-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD2089F1BF94E82000DE448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ryan Huebert";
+				TargetAttributes = {
+					AFD208A61BF94E82000DE448 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AFD208BA1BF94E82000DE448 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AFD208A61BF94E82000DE448;
+					};
+					AFD208C51BF94E82000DE448 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AFD208A61BF94E82000DE448;
+					};
+				};
+			};
+			buildConfigurationList = AFD208A21BF94E82000DE448 /* Build configuration list for PBXProject "lecture28-exercise-multiples-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD2089E1BF94E82000DE448;
+			productRefGroup = AFD208A81BF94E82000DE448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD208A61BF94E82000DE448 /* lecture28-exercise-multiples-app */,
+				AFD208BA1BF94E82000DE448 /* lecture28-exercise-multiples-appTests */,
+				AFD208C51BF94E82000DE448 /* lecture28-exercise-multiples-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD208A51BF94E82000DE448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD208B51BF94E82000DE448 /* LaunchScreen.storyboard in Resources */,
+				AFD208B21BF94E82000DE448 /* Assets.xcassets in Resources */,
+				AFD208B01BF94E82000DE448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208B91BF94E82000DE448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208C41BF94E82000DE448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD208A31BF94E82000DE448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD208AD1BF94E82000DE448 /* ViewController.swift in Sources */,
+				AFD208AB1BF94E82000DE448 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208B71BF94E82000DE448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD208C01BF94E82000DE448 /* lecture28_exercise_multiples_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208C21BF94E82000DE448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD208CB1BF94E83000DE448 /* lecture28_exercise_multiples_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD208BD1BF94E82000DE448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD208A61BF94E82000DE448 /* lecture28-exercise-multiples-app */;
+			targetProxy = AFD208BC1BF94E82000DE448 /* PBXContainerItemProxy */;
+		};
+		AFD208C81BF94E82000DE448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD208A61BF94E82000DE448 /* lecture28-exercise-multiples-app */;
+			targetProxy = AFD208C71BF94E82000DE448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFD208AE1BF94E82000DE448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD208AF1BF94E82000DE448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD208B31BF94E82000DE448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD208B41BF94E82000DE448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD208CD1BF94E83000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFD208CE1BF94E83000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD208D01BF94E83000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lecture28-exercise-multiples-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.lecture28-exercise-multiples-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFD208D11BF94E83000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lecture28-exercise-multiples-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.lecture28-exercise-multiples-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFD208D31BF94E83000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lecture28-exercise-multiples-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.lecture28-exercise-multiples-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lecture28-exercise-multiples-app.app/lecture28-exercise-multiples-app";
+			};
+			name = Debug;
+		};
+		AFD208D41BF94E83000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lecture28-exercise-multiples-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.lecture28-exercise-multiples-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lecture28-exercise-multiples-app.app/lecture28-exercise-multiples-app";
+			};
+			name = Release;
+		};
+		AFD208D61BF94E83000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lecture28-exercise-multiples-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.lecture28-exercise-multiples-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lecture28-exercise-multiples-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AFD208D71BF94E83000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lecture28-exercise-multiples-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.lecture28-exercise-multiples-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lecture28-exercise-multiples-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD208A21BF94E82000DE448 /* Build configuration list for PBXProject "lecture28-exercise-multiples-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD208CD1BF94E83000DE448 /* Debug */,
+				AFD208CE1BF94E83000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD208CF1BF94E83000DE448 /* Build configuration list for PBXNativeTarget "lecture28-exercise-multiples-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD208D01BF94E83000DE448 /* Debug */,
+				AFD208D11BF94E83000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFD208D21BF94E83000DE448 /* Build configuration list for PBXNativeTarget "lecture28-exercise-multiples-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD208D31BF94E83000DE448 /* Debug */,
+				AFD208D41BF94E83000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFD208D51BF94E83000DE448 /* Build configuration list for PBXNativeTarget "lecture28-exercise-multiples-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD208D61BF94E83000DE448 /* Debug */,
+				AFD208D71BF94E83000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD2089F1BF94E82000DE448 /* Project object */;
+}
